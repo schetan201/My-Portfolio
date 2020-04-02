@@ -37,11 +37,11 @@ export class ContactComponent extends React.Component{
     onSubmit(e) {
         e.preventDefault();
 
-        const user = {
+       /* const user = {
             firstName : this.state.firstName,
             email : this.state.email,
             Message : this.state.Message
-        }
+        }*/
        // saveUser.bind(user);
         this.setState({
             firstName : '',
@@ -54,7 +54,7 @@ export class ContactComponent extends React.Component{
 
     render(){
         return <div className="base-container">
-            <div className="header"> Register </div>
+            <div className="header"> Contact Me </div>
             <div className="content">
                 <form onSubmit = {this.onSubmit}>
                 <div className="form">
@@ -72,7 +72,7 @@ export class ContactComponent extends React.Component{
                         <textarea  required name="Message" value={this.state.Message} onChange={this.onChangemsg} className="form-control" rows="5" placeholder="Message"></textarea>
                     </div>
                     <div className="form-group">
-                    <button type="Submit" className="FormField__Button">Register</button>
+                    <button type="Submit" className="FormField__Button">Send</button>
                     </div>
                 </div>
                 </form> 

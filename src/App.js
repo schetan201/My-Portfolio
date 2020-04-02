@@ -10,9 +10,9 @@ function App() {
     <div className="App">
      <header> <NavBarComponent /> </header>
       <div className="App_body">
-        <div className="profileImage"></div>
+        {/* <div className="profileImage"></div> */}
         <div className="contactBox">
-            <ContactComponent />
+        <Route exact path='/my-portfolio'> <ContactComponent /></Route>
           </div>
       <Route exact path='/my-portfolio'><HomeComponent /></Route>
       <Route path='/my-portfolio/AboutMe'><AboutMeComponent /></Route>

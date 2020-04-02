@@ -7,7 +7,7 @@ export class NavBarComponent extends React.Component{
        render(){
         return  <Navbar bg="light" expand="lg">
         <Navbar.Brand>
-          <NavLink exact to="/" > Chetan </NavLink>
+          <NavLink exact to="/my-portfolio" > Chetan </NavLink>
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -23,7 +23,7 @@ export class NavBarComponent extends React.Component{
             <Nav.Link href="https://github.com/chetan-shirsath" target="_blank"> <i class="fa fa-github fa-fa-github-custom"></i></Nav.Link>
             <Nav.Link href="https://www.linkedin.com/in/chetan-shirsath" target="_blank"> <i class="fa fa-linkedin-square fa-fa-linkedin-square-custom"></i></Nav.Link>
             <Nav.Link href="skype://shirsath.c@husky.neu.edu?call" target="_blank"> <i class="fa fa-skype fa-fa-skype-custom"></i></Nav.Link>
-            <Nav.Link href="tel://+14142490614" target="_blank"> <i class="fa fa-phone-square fa-fa-phone-square-custom"></i></Nav.Link>
+            <Nav.Link href="tel://+14144397164" target="_blank"> <i class="fa fa-phone-square fa-fa-phone-square-custom"></i></Nav.Link>
           {/* <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
             <Button variant="outline-success">Search</Button>
