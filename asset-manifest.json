@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.85d861c1.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.2b088eac.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.2b088eac.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.bf99a60d.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.bf99a60d.js.map",
+    "static/js/2.16b40579.chunk.js": "/my-portfolio/static/js/2.16b40579.chunk.js",
+    "static/js/2.16b40579.chunk.js.map": "/my-portfolio/static/js/2.16b40579.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "precache-manifest.90e204a547ba89584798d408c7cc6152.js": "/my-portfolio/precache-manifest.90e204a547ba89584798d408c7cc6152.js",
+    "service-worker.js": "/my-portfolio/service-worker.js",
+    "static/css/main.85d861c1.chunk.css.map": "/my-portfolio/static/css/main.85d861c1.chunk.css.map",
+    "static/js/2.16b40579.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.16b40579.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/my-portfolio/static/media/sb-blog-programming.b88ab6c5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf99a60d.js",
+    "static/js/2.16b40579.chunk.js",
+    "static/css/main.85d861c1.chunk.css",
+    "static/js/main.2b088eac.chunk.js"
+  ]
+}
