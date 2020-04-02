@@ -1,0 +1,17 @@
+.App {
+  color: white;
+}
+.App_body {
+  height: 100vh;
+  background-color: transparent;
+  background-repeat: round; 
+  background-image: url('./Images/sb-blog-programming.jpg');
+
+}
+
+.profileImage{
+  height: 100vh;
+  width: 40vh;
+  background-image: url('./Images/WhatsAppc.jpeg');
+}
+
