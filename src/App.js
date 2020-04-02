@@ -14,11 +14,11 @@ function App() {
         <div className="contactBox">
             <ContactComponent />
           </div>
-      <Route exact path='/'><HomeComponent /></Route>
-      <Route path='/AboutMe'><AboutMeComponent /></Route>
-      <Route path='/EducationUniversity'><EducationUComponent /></Route>
-      <Route path='/EducationOnline'><EducationOComponent /></Route>
-      <Route path='/Projects'><ProjectComponent /></Route>
+      <Route exact path='/my-portfolio'><HomeComponent /></Route>
+      <Route path='/my-portfolio/AboutMe'><AboutMeComponent /></Route>
+      <Route path='/my-portfolio/EducationUniversity'><EducationUComponent /></Route>
+      <Route path='/my-portfolio/EducationOnline'><EducationOComponent /></Route>
+      <Route path='/my-portfolio/Projects'><ProjectComponent /></Route>
       </div>
     </div>
     </Router>

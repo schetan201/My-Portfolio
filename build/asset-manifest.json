@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.2e4cd9a9.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.ea262e3f.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.ea262e3f.chunk.js.map",
-    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.6bf31414.js",
-    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.6bf31414.js.map",
-    "static/js/2.4a2bcdba.chunk.js": "/My-Portfolio/static/js/2.4a2bcdba.chunk.js",
-    "static/js/2.4a2bcdba.chunk.js.map": "/My-Portfolio/static/js/2.4a2bcdba.chunk.js.map",
-    "index.html": "/My-Portfolio/index.html",
-    "precache-manifest.ca46dd2d1f7b05e154ed720781bcbf77.js": "/My-Portfolio/precache-manifest.ca46dd2d1f7b05e154ed720781bcbf77.js",
-    "service-worker.js": "/My-Portfolio/service-worker.js",
-    "static/css/main.2e4cd9a9.chunk.css.map": "/My-Portfolio/static/css/main.2e4cd9a9.chunk.css.map",
-    "static/js/2.4a2bcdba.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.4a2bcdba.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/My-Portfolio/static/media/sb-blog-programming.b88ab6c5.jpg"
+    "main.css": "/my-portfolio/static/css/main.85d861c1.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.62a49e68.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.62a49e68.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.bf99a60d.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.bf99a60d.js.map",
+    "static/js/2.16b40579.chunk.js": "/my-portfolio/static/js/2.16b40579.chunk.js",
+    "static/js/2.16b40579.chunk.js.map": "/my-portfolio/static/js/2.16b40579.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "precache-manifest.5dd51269aa5b10875ac77e3712f70183.js": "/my-portfolio/precache-manifest.5dd51269aa5b10875ac77e3712f70183.js",
+    "service-worker.js": "/my-portfolio/service-worker.js",
+    "static/css/main.85d861c1.chunk.css.map": "/my-portfolio/static/css/main.85d861c1.chunk.css.map",
+    "static/js/2.16b40579.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.16b40579.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/my-portfolio/static/media/sb-blog-programming.b88ab6c5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6bf31414.js",
-    "static/js/2.4a2bcdba.chunk.js",
-    "static/css/main.2e4cd9a9.chunk.css",
-    "static/js/main.ea262e3f.chunk.js"
+    "static/js/runtime-main.bf99a60d.js",
+    "static/js/2.16b40579.chunk.js",
+    "static/css/main.85d861c1.chunk.css",
+    "static/js/main.62a49e68.chunk.js"
   ]
 }
