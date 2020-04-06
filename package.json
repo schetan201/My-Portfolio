@@ -8,11 +8,15 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
+    "colorlib": "0.0.0",
+    "emailjs-com": "^2.4.1",
     "gh-pages": "^2.2.0",
     "git": "^0.1.5",
+    "mdbreact": "^4.25.5",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
+    "react-retro-hit-counter": "^1.0.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {

@@ -2,8 +2,18 @@ import React from 'react';
 import "./navBarStyle.scss";
 import { NavLink} from 'react-router-dom';
 import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
+import { ContactComponent } from '../index';
 
 export class NavBarComponent extends React.Component{
+constructor(props){
+  super(props);
+  this.state = this.handleSubmit;
+}
+  handleSubmit = () => {
+
+        return <ContactComponent />;
+    
+    }
        render(){
         return  <Navbar bg="light" expand="lg">
         <Navbar.Brand>
@@ -20,10 +30,10 @@ export class NavBarComponent extends React.Component{
             </NavDropdown>
             <Nav.Link><NavLink to="/my-portfolio/Projects" > Projects </NavLink></Nav.Link>
             </Nav>
-            <Nav.Link href="https://github.com/chetan-shirsath" target="_blank"> <i class="fa fa-github fa-fa-github-custom"></i></Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/chetan-shirsath" target="_blank"> <i class="fa fa-linkedin-square fa-fa-linkedin-square-custom"></i></Nav.Link>
-            <Nav.Link href="skype://shirsath.c@husky.neu.edu?call" target="_blank"> <i class="fa fa-skype fa-fa-skype-custom"></i></Nav.Link>
-            <Nav.Link href="tel://+14144397164" target="_blank"> <i class="fa fa-phone-square fa-fa-phone-square-custom"></i></Nav.Link>
+            <Nav.Link href="https://github.com/chetan-shirsath" target="_blank"> <i className="fa fa-github fa-fa-github-custom"></i></Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/chetan-shirsath" target="_blank"> <i className="fa fa-linkedin-square fa-fa-linkedin-square-custom"></i></Nav.Link>
+            <Nav.Link href="skype://shirsath.c@husky.neu.edu?call" target="_blank"> <i className="fa fa-skype fa-fa-skype-custom"></i></Nav.Link>
+            <Nav.Link href="tel://+14144397164" target="_blank"> <i className="fa fa-phone-square fa-fa-phone-square-custom"></i></Nav.Link>
           {/* <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
             <Button variant="outline-success">Search</Button>

@@ -1,17 +1,34 @@
 .App {
   color: white;
+  background-repeat: round;
 }
 .App_body {
+ /* background-color: cyan;*/
+  background-repeat: round;
+  /*background-image: url('./Images/sb-blog-programming.jpg');*/
+  
+}
+
+.sideBar{
+  float: left;
+}
+.mainContainer{
+  margin-left: 18rem;
   height: 100vh;
-  background-color: transparent;
-  background-repeat: round; 
-  background-image: url('./Images/sb-blog-programming.jpg');
+  background-image: url('./Images/background_1.jpeg');
+  background-repeat: round;
+  background-color: cyan;
+ 
+}
+
+.bodyclss{
+ size: inherit;
 
 }
 
 .profileImage{
   height: 100vh;
   width: 40vh;
-  background-image: url('./Images/WhatsAppc.jpeg');
+  background-image: url('./Images/pro.jpg');
 }
 
