@@ -1,19 +1,27 @@
 import React from 'react';
 import { ContactComponent } from '../index';
+import './homeStyle.scss';
 
 
 
 export class HomeComponent extends React.Component{
     render(){
-  return <div className="txtq">
-  <div >
-  <div >
-    <h3>Development Going On..!</h3>
+  return <div className="mainHome">
+  
+  <div className="card bgCard">
+  {/* <div className="bgCard" > */}
+  <div className="card-body">
     
-    <h3>Visit the Projects section Or Contact Me to suggest something</h3>
-    <ContactComponent />
-
+  {/* <h3 className="card-title title"></h3> */}
+      <p className="title">Chetan Shirsath <br></br>
+      {/* MS in IS - <a href="https://www.northeastern.edu/" target="window.opener()">Northeastern University</a><br></br> */}
+       Software Engineer <br></br> 
+      {/* Former Web Developer Intern at <a href="https://www.3ds.com/"target="window.opener()" >Dassault Systèmes</a><br></br> */}
+Boston, Massachusetts </p>
+    {/* <ContactComponent /> */}
 </div>
+</div>
+{/* </div> */}
 
 
 
@@ -66,6 +74,6 @@ export class HomeComponent extends React.Component{
       </div>
     </div> */}
     </div>
-    </div>
+    // </div>
     }
 }

@@ -1,12 +1,43 @@
 .mainHome{
-    background-color: red;
-    background-repeat: round;
-    background-image: url('../../Images/sb-blog-programming.jpg');
+    // background-color: lightgray;
+    // background-image: url('../../Images/photo-1489844097929-c8d5b91c456e.jpg');
+  background-repeat: round; 
+    border: none;
+    // opacity: 0.6;
+    text-align: center;
+    -webkit-text-stroke-width: thick;
+    background-size: cover;
+    height: 100%;
+    // background-repeat: round;
+    // background-image: url('../../Images/sb-blog-programming.jpg');
+}
+
+
+.bgCard{
+  height: 100%;
+  width: auto;
+  background-color:grey;
+  border: none;
+  justify-content: space-evenly;     
+  background-color: transparent;
+
 }
 
 .card-title-colapse{
     background-color: red;
     text-decoration: red($color: #000000);;
+}
+
+.card-body{
+  padding: 0px;
+  display: contents;
+  text-align: center;
+}
+.title{
+  color: black;
+  font-size: 3vw;
+  align-items:center;
+justify-content:center;
 }
 
 
@@ -37,8 +68,9 @@
     text-align: center;
   }
 
-  .txtq{
-    background-color: blue($color: #000000);
-  }
+  // .txtq{
+  //   background-color: blue($color: #000000);
+  // }
+ 
   
   

@@ -1,25 +1,76 @@
 .App {
   color: white;
-  background-repeat: round;
+  /* background-repeat: round; */
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  overflow: hidden;
 }
 .App_body {
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  /* overflow: hidden; */
+  position: relative;
+  z-index: 2;
+  width: 100%;
  /* background-color: cyan;*/
-  background-repeat: round;
+  /* background-repeat: round;
+  display: inline-block;
+    position: relative;
+    width: 100%; */
+    /*background: url('https://s20.postimg.org/o09gf7fvx/bag.jpg') no-repeat center top;*/
+     /* background: no-repeat center top;
+    background-size: contain; */
   /*background-image: url('./Images/sb-blog-programming.jpg');*/
   
 }
 
 .sideBar{
   float: left;
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  /* max-width: 20%;
+  min-width: 20%; */
 }
 .mainContainer{
-  margin-left: 18rem;
-  height: 100vh;
-  background-image: url('./Images/background_1.jpeg');
-  background-repeat: round;
-  background-color: cyan;
- 
+  /* margin-left: 20%; */
+  /* height: 100vh;*/
+  /* background-image: url('./Images/me.jpeg'); */
+   background-image: url('./Images/photo-1489844097929-c8d5b91c456e.jpg');
+  background-repeat: round;  
+  /* background-color: lightgray; */
+  float: right;
+  width: 90%;
+  height: 100%;
+  z-index: 1;
+  overflow: auto;
 }
+
+.bgimg {
+  /* Background image */
+  background-image: url('./Images/sb-blog-programming.jpg');
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+}
+
+
 
 .bodyclss{
  size: inherit;
@@ -32,3 +83,45 @@
   background-image: url('./Images/pro.jpg');
 }
 
+
+/* body{
+  margin: 0;
+  padding: 0; 
+  background-color: #000;
+} */
+
+.arrow{
+  position: absolute;
+  top: 80%;
+  left: 90%;
+  transform: translate(-50%,-50%);
+}
+.arrow span{  
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  border-bottom: 7px solid red;
+  border-right: 7px solid red;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+  animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0%{
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
+  }
+}

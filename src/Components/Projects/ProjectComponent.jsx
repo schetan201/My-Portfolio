@@ -3,7 +3,8 @@ import './ProjectStyle.scss';
 
 export class ProjectComponent extends React.Component{
     render(){
-  return <div class="py-5">
+  return <div className = "project">
+  <div class="py-5">
   <div class="container">
     <div class="row hidden-md-up">
 
@@ -76,6 +77,7 @@ System<br></br>
           </div>
         </div>
       </div>
+    </div>
     </div>
     </div>
     </div>
